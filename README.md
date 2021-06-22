@@ -11,7 +11,7 @@
 
 ## run icp
     cd build
-    ./ icp ../STN6xyzi(re).pcd STN7xyzi(re).pcd
+    ./icp ../img/STN6xyzi\(re\).pcd ../img/STN7xyzi\(re\).pcd 
 
 ## run cloud viewer
     cd build

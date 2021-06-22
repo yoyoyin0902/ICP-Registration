@@ -222,7 +222,7 @@ void pairAlign (const PointCloud::Ptr cloud_src, const PointCloud::Ptr cloud_tgt
   Eigen::Matrix4f Ti = Eigen::Matrix4f::Identity (), prev, targetToSource;
   PointCloudWithNormals::Ptr reg_result = points_with_normals_src;
   reg.setMaximumIterations (2);
-  for (int i = 0; i < 30; ++i)
+  for (int i = 0; i < 5; ++i)
   {
     PCL_INFO ("Iteration Nr. %d.\n", i);
 
